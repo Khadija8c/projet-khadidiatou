@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>projet-khadidiatou</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/jumbo.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/devis.css">
+    <link rel="stylesheet" href="css/partenaire.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fin-projet.css">
+    
+</head>
+<body>
+    <header class="header">
+    
+        <a href="index.html">
+          <img src="image/logo(1).png" alt="" class="logo">
+        </a>
+        
+        <ul class="main-menu">
+            <li><a href="#">Nos services</a></li>
+            <li><a href="#">Nos articles</a></li>
+            <li><a href="#">Nous contacter</a></li>
+            <li><a href="#"class="button">Demander un devis</a></li>
+        </ul>
+       
+        
+    </header>
+    <main class="main">
+        <div class="jumbotron">
+            <div class="jumbotron-text">
+                <h1>La rénovation
+                    Énergétique
+                    Pour tous</h1>
+                <p>Nous sommes spécialisés du chauffage et de la climatisation à destination des professionnels et particuliers</p>
+                <ul class="jumbotron-link">
+                    <li><a href="">Devis gratuit</a></li>
+                    <li><a href="">A propos de nos services</a></li>
+                </ul>
+            </div>
+            <div class="jumbotron-img">
+                <img src="image/jumbo-img.png" alt="">
+            </div>
+        
+        </div>
+
+    </main>
+    <div class="section">
+        <h3 class="section-title">NOS SERVICES</h3>
+        <h1 class="section-services">Services professionels pour les particuliers et les industriels</h1>
+        <div class="groupes">
+            <div class="group">
+                <img src="image/Pompe-chaleur.svg" alt="">
+                <h4>Pompe à chaleur air-air/air-eau</h4>
+            </div>
+            <div class="group">
+                <img src="image/Chauffe-eau.svg" alt="">
+                <h4>Chauffe-eau thermodynamique</h4>
+            </div>
+            <div class="group">
+                <img src="image/Isolation.svg" alt="">
+                <h4>Isolation</h4>
+            </div>
+            <div class="group">
+                <img src="image/pannaux photovol.svg" alt="">
+                <h4>Panneaux photovoltaïques</h4>
+            </div>
+            
+
+        </div>
+
+         
+    </div>
+    <div class="section2">
+        <div class="installation">
+            <img src="image/Installation (1).svg" alt="">
+            <h4>Installation</h4>
+            <p>Nous proposons l'installation de tous types de chaudières, au gaz, biomasse, des pompes à chaleur, chauffe-eau thermodynamique, thermostat ainsi que des climatisations</p>
+        </div>
+        <div class="installation">
+            <img src="image/i2.svg" alt="">
+            <h4>Dépannage</h4>
+            <p>Nos équipes se déplacent rapidement pour intervenir sur votre urgence. Réparation de fuites d'eau à Paris et en région Parisienne</p>
+        </div>
+        <div class="installation">
+            <img src="image/i3.svg" alt="">
+            <h4>Maintenance</h4>
+            <p>Prévenir plutôt que guérir !
+                Nous pouvons intervenir sur vos installations de manière régulière afin d'éviter tout type d'incident</p>
+        </div>
+    </div>
+    <section class="container">
+        <div class="form-image">
+            <img src="image/image-formulaire.png" alt="">
+        </div>
+        <form action="">
+            <h2>Demande de devis gratuit</h2>
+            <aside>
+                <div class="form-group"> 
+                    <label for="logement">Type de logement</label>
+                    <select id="logement">
+                        <option value="">Type de logement</option>
+                        <option value="maison">Maison</option>
+                        <option value="appartement">Appartement</option>
+                    </select>
+                
+                <div class="form-group">
+                    <label for="chauffage">Type de chauffage</label>
+                    <select id="chauffage">
+                        <option value="">Type de chauffage</option>
+                        <option value="air-air">Pompe à chaleur air-air</option>
+                        <option value="eau-eau">Pompe à chaleur eau-eau</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="surface">Surface de l'habitation</label>
+                    <input type="text" id="surface" placeholder="Surface de l'habitation">
+                </div>
+                <div class="form-group">
+                    <label for="status">Propriétaire / Locataire</label>
+                    <select id="status">
+                        <option value="">Sélectionner votre situation</option>
+                        <option value="proprietaire">Propriétaire</option>
+                        <option value="locataire">Locataire</option>
+                    </select>
+                </div>
+            </div>
+            <div class="khadija">
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" placeholder="Votre prénom">
+                </div>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" placeholder="+33 29862">
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" id="email" placeholder="example@mail.com">
+                </div>
+                </div>
+            </aside>
+            <div class="form-group">
+                <label>Type de travaux demandés</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Pompe à chaleur air-air</label>
+                    <label><input type="checkbox"> Pompe à chaleur eau-eau</label>
+                    <label><input type="checkbox"> Chauffe-eau thermodynamique</label>
+                    <label><input type="checkbox"> Panneaux photovoltaïques</label>
+                </div>
+                <button type="submit">Envoyer ma demande</button>
+            </div>
+        </form>   
+    </section>
+   
+      
+
+    <footer>
+        <section class="partenaire">
+            <div class="partenaire-title">
+                <h1>partenaires</h1>
+            </div>
+            <div class="partenaire-image">
+                <img src="image/Rectangle 52.jpg" alt="">
+                
+                <img src="image/Rectangle 53.jpg" alt="">
+        
+                <img src="image/Rectangle 54.jpg" alt="">
+                
+                <img src="image/Rectangle 55.jpg" alt="">
+                
+                <img src="image/Rectangle 56.jpg" alt="">
+                
+                <img src="image/Rectangle 57.jpg" alt="">
+                
+             </div>
+        </section>
+        <div class="footer">
+            <div class="form-group">
+                <img src="image/logo(1).png" alt="">
+                <h4>
+                <p>Nous sommes spécialisés du chauffage et de la climatisation à destination des professionnels et particuliers</p>
+            </div>
+            <div class="form-group">
+                <h4>Services</h4>
+                <p>Pompe à chaleur air-air/air-eau</p>
+                <p>Chauffe-eau thermodynamique</p>
+                <p>Isolation</p>
+                <p>Panneaux photovoltaïques</p>
+            </div>
+            <div class="form-group">
+                <h4>Contact</h4>
+                <p>04 81 13 34 80</p>
+                <p>contact@coolcare.fr</p>
+            </div>
+            <div class="form-group">
+                <h4>Information</h4>
+                <p>Cookies</p>
+                <p>Mentions légales</p>
+                <p>FAQ</p>
+                <p>Carte du site</p>
+                <p>Demande de devis</p>
+            </div>
+        </div>
+    </footer>
+    
+        
+
+  
+
+<section >
+
+    <div class="fin-projet">
+    <div class="mail">
+        <h3>© CoolCar 2021, tous droits réservés</h3>
+
+    </div>
+    <div class="logo">
+        <img src="image/linkedin 1.svg" alt="">
+        <img src="image/Facebook 1.svg" alt="">
+        <img src="image/Youtube 1.svg" alt="">
+        <img src="image/Instagram 1.svg" alt="">
+        <img src="image/Twitter 1.svg" alt="">
+        
+    </div>
+
+    </div>
+
+
+</section>
+
+
+
+    
+</body>
+
+</html>

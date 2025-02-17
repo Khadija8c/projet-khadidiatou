@@ -1,0 +1,29 @@
+.section{
+    padding: 80px 0;
+    background-color: #E3ECF6;
+}
+.section-title{
+    text-align: center;
+    color: #094998;
+    
+}
+.section-services{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #313131;
+    
+}
+.groupes{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+}
+.group h4{
+    color:  #094998;
+    
+}

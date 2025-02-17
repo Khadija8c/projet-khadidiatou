@@ -1,0 +1,42 @@
+.jumbotron{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 20px;
+    
+}
+.jumbotron-text, .jumbotron-img{
+    width: 50%;
+
+}
+.jumbotron-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--black);
+}
+.jumbotron-img img{
+    width: 100%;
+}
+.jumbotron-text ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+    padding-left:0 ;
+
+
+}
+.jumbotron-link li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #31B7BD;
+    
+
+}
+.jumbotron-link li:first-child a{
+    background-color:  #B5E5E7;
+    display: inline-block;
+    padding: 24px 36px;
+    font-weight: 600;
+    border-radius: 8px;
+}

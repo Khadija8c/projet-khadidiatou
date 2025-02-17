@@ -1,0 +1,17 @@
+.fin-projet{
+    display: flex;
+    gap: 70px;
+    
+    background-color: white;
+    
+}
+.logo{
+    margin: 10px;
+    display: flex;
+    gap: 50px;
+    
+}
+.logo img{
+
+    width: 40px ;
+}

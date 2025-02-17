@@ -1,0 +1,27 @@
+.section2{
+    padding: 80px 0;
+    background-color:  #FFFFFF;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+
+}
+.installation h4{
+  color:  #31B7BD;
+  
+}
+.installation p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    
+
+
+}
+.installation img{
+  
+
+}

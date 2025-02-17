@@ -1,0 +1,20 @@
+.section3{
+    padding: 80px 0;
+    
+}
+.partenaire-title{
+    text-align: center;
+    color:black;
+    
+}
+
+    
+
+.partenaire img{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+}
+
+    

@@ -1,0 +1,27 @@
+.footer{
+    padding: 80px 0;
+    background-color: #C8DAE4;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+
+}
+
+  
+
+.form-group p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #476385;
+
+
+}
+.form-group h4{
+    color: #476385;
+  
+
+}
